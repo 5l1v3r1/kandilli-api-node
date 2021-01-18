@@ -1,0 +1,19 @@
+{
+  "name": "kandilli-api-node",
+  "version": "1.0.0",
+  "description": "Bu proje, Kandilli Rasathanesi'nin sitesinden depremleri çekmek için oluşturulmuştur.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "jsdom": "^16.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
