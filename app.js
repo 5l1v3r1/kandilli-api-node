@@ -47,5 +47,5 @@ axios.get('http://www.koeri.boun.edu.tr/scripts/lst0.asp').then((res) => {
   preData.forEach((element) => {
     fs.appendFileSync('depremler.json', convertToDeprem(element) + ',' +'\n');
   });
-  fs.appendFileSync('depremler.json', '\r]');
+  fs.appendFileSync('depremler.json', ']');
 });
